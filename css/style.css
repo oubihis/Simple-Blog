@@ -1,0 +1,209 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+@font-face {
+	font-family: sans;
+	src: url(../font/sans.ttf);
+}
+@font-face {
+	font-family: helvetica;
+	src: url(../font/helvetica.ttf);
+}
+
+@font-face {
+	font-family: jannat;
+	src: url(../font/jannattt.otf);
+}
+
+@font-face {
+	font-family: estre;
+	src: url(../font/estre.ttf);
+}
+
+h1 {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 6vh;
+}
+p {
+  font-size: 2vmin;
+}
+
+/* searche */
+.search {
+	color: #1f426a;
+	margin-top: 30px;
+	margin: 25px;
+	margin-right: 100px;
+}
+
+
+/* avatar */
+
+.avatar img {
+	margin-top: 20px;
+	border: 5px solid #ecebeb;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	border-radius: 150px;
+}
+
+
+/* info acthor */
+h1{
+	font-family: sans;
+	text-transform:capitalize;
+}
+.description {
+	text-transform: capitalize;
+	text-align: -webkit-center;
+}
+
+.description p {
+	width: 400px;
+	font-family: estre;
+	color: #48525e;
+}
+.icons {
+	margin-top: 2.5%;
+}
+.icons i {
+	margin:5px;
+	font-size: 25px
+}
+
+.article {
+	margin-top: 50px;
+	margin-bottom: 100px;
+ 	background-image: url(../img/article.jpg);
+	height: 350px;
+	color:#fff;
+	max-width: 100%;
+
+}
+
+.titre{
+	padding: 2.5%;
+	text-align: -webkit-center;
+ 
+}
+
+.titre h2{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 6vh;
+    font-family: helvetica;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+
+
+.article .info {
+	font-family: jannat;
+    font-size: 16px;
+    text-align: -webkit-center;
+}
+
+.article #time {
+padding-right: 10px;
+}
+
+
+.article #watch {
+	padding-left: 10px;
+}
+
+.footer {
+	text-align: -webkit-center;
+}
+
+.older-post {
+	border: 1px solid #ced9d9;
+    border-radius: 25px;
+    width: 145px;
+    margin-bottom: 100px;
+    padding: 8px;
+    text-align: center;
+    color: #48525e;
+    font-family: jannat;
+    font-weight: 600;
+    text-transform:capitalize;
+
+}
+
+.older-post span{
+	color:#1f426a;
+	 font-size: 15px;
+}
+
+
+.end {
+	height: 50x;
+	background-color: #eaedef;
+	padding:50px;
+}
+
+.Copyright .Copy {
+	float: right;
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: 600;
+	color: #6c7682;
+
+}
+
+.Copyright .social {
+	float: left !important;
+	padding-left: 100px;
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: 600;
+	color: #6c7682;
+}
+
+.Copyright  .icon-social{
+	float: left !important;
+	padding-left: 10px;
+}
+
+.icon-social i {
+	padding-left: 5px;
+	font-size:18px;
+}
+
+.fa-facebook-square{
+	color:#2980b9;
+}
+
+.fa-twitter-square{
+	color:#3498db;
+}
+
+.fa-youtube-square{
+	color:#e74c3c;
+}
+
+
+a {
+	text-decoration: none;
+}
